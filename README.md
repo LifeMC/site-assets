@@ -1,5 +1,7 @@
 # site-assets
-Public site assets for the LifeMC site.
+Public site assets for the LifeMC site. Provided as-is, anyone can use them.
+
+We modified some of the popular frameworks/libraries to suit our performance needs.
 
 # img
 Contains the images. Preference order: AVIF > WebP > JPG > PNG.
@@ -27,7 +29,7 @@ not in December is more performance friendly.
 All of them should be starting with "use strict"; to use strict mode.
 
 # usage
-Bootstrap 3:
+**Bootstrap 3:**
 
 You need to add cdn.statically.io to your script-src-elem or script-src directives if you're using a content security policy (CSP) on your site.
 
@@ -36,7 +38,7 @@ You need to add cdn.statically.io to your script-src-elem or script-src directiv
 <link rel="stylesheet preload" href="https://cdn.statically.io/gh/LifeMC/site-assets/main/css/bootstrap/3.4.1/bootstrap.min.css" as="style">
 ```
 
-FontAwesome 4:
+**FontAwesome 4:**
 
 You need to add cdn.statically.io to your script-src-elem or script-src directives if you're using a content security policy (CSP) on your site.
 
@@ -45,7 +47,7 @@ You need to add cdn.statically.io to your script-src-elem or script-src directiv
 <link rel="stylesheet preload" href="https://cdn.statically.io/gh/LifeMC/site-assets/main/css/font-awesome/4.7.0/font-awesome.min.css" as="style">
 ```
 
-DeferJs:
+**DeferJs:**
 
 You need to add cdn.statically.io to your script-src-elem or script-src directives if you're using a content security policy (CSP) on your site.
 
@@ -58,17 +60,17 @@ To learn more about DeferJs, see https://github.com/shinsenter/defer.js/commits/
 
 Note: This not receive updates from the repository anymore and is not used by LifeMC main site anymore, therefore not supported.
 
-Snowstorm:
+**Snowstorm:**
 
 You need to add cdnjs.cloudflare.com and cdn.statically.io to your script-src-elem or script-src directives if you're using a content security policy (CSP) on your site.
 
-With PHP only on month of December:
+**With PHP only on month of December:**
 
 ```php
 <?php if (date('n') === '12') { echo '<script defer src="https://cdnjs.cloudflare.com/ajax/libs/Snowstorm/20131208/snowstorm-min.js"></script><script defer src="https://cdn.statically.io/gh/LifeMC/site-assets/main/js/main/v1/snow.min.js"></script>'; }?>
 ```
 
-With HTML always:
+**With HTML always:**
 
 ```html
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Snowstorm/20131208/snowstorm-min.js"></script>
@@ -79,4 +81,4 @@ With HTML always:
 Although some of our base libraries (Bootstrap, FontAwesome, etc.) are behind the latest major versions, they don't contain any security vulnerabilities and
 we have edited them for our performance needs, to make PageSpeed Insights not complain about font-display swap, for example.
 
-We will update our base library eventually though, but we'll avoid the hassle of upgrading until we think it is certainly needed.
+We will update our base libraries eventually though, but we'll avoid the hassle of upgrading until we think it is certainly needed.
