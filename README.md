@@ -26,6 +26,9 @@ not in December is more performance friendly.
 
 All of them should be starting with "use strict"; to use strict mode.
 
+# others
+Contains all other files. Like data files and third party used files.
+
 # usage
 Bootstrap 3:
 
