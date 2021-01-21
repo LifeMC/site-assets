@@ -1,39 +1,42 @@
 {
-    "name": "",
-    "short_name": "",
+    "short_name": "LifeMC",
+    "name": "LifeMC Minecraft Server",
+    "description": "LifeMC Minecraft Skyblock Server",
     "icons": [
         {
             "src": "https://cdn.statically.io/img/raw.githubusercontent.com/LifeMC/site-assets/main/img/favicon/android-chrome-36x36.png",
-            "sizes": "36x36",
             "type": "image/png"
+            "sizes": "36x36",
         },
         {
             "src": "https://cdn.statically.io/img/raw.githubusercontent.com/LifeMC/site-assets/main/img/favicon/android-chrome-48x48.png",
-            "sizes": "48x48",
             "type": "image/png"
+            "sizes": "48x48",
         },
         {
             "src": "https://cdn.statically.io/img/raw.githubusercontent.com/LifeMC/site-assets/main/img/favicon/android-chrome-72x72.png",
+            "type": "image/png",
             "sizes": "72x72",
-            "type": "image/png"
         },
         {
             "src": "https://cdn.statically.io/img/raw.githubusercontent.com/LifeMC/site-assets/main/img/favicon/android-chrome-96x96.png",
-            "sizes": "96x96",
             "type": "image/png"
+            "sizes": "96x96",
         },
         {
             "src": "https://cdn.statically.io/img/raw.githubusercontent.com/LifeMC/site-assets/main/img/favicon/android-chrome-144x144.png",
-            "sizes": "144x144",
             "type": "image/png"
+            "sizes": "144x144",
         },
         {
             "src": "https://cdn.statically.io/img/raw.githubusercontent.com/LifeMC/site-assets/main/img/favicon/android-chrome-192x192.png",
-            "sizes": "192x192",
             "type": "image/png"
+            "sizes": "192x192",
         }
     ],
-    "theme_color": "#183E59",
-    "background_color": "#ffffff",
-    "display": "standalone"
+    "start_url": "/",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#183E59"
 }
