@@ -4,6 +4,11 @@
     "description": "LifeMC Minecraft Skyblock Server",
     "icons": [
         {
+            "src": "https://cdn.statically.io/img/raw.githubusercontent.com/LifeMC/site-assets/main/img/favicon/favicon-16x16.png"
+            "type": "image/png"
+            "sizes": "16x16"
+        },
+        {
             "src": "https://cdn.statically.io/img/raw.githubusercontent.com/LifeMC/site-assets/main/img/favicon/android-chrome-36x36.png",
             "type": "image/png"
             "sizes": "36x36",
